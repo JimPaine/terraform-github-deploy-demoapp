@@ -11,7 +11,7 @@ namespace Demo
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post")]HttpRequest request)
         {
-            return new OkObjectResult("How on earth??");
+            return new OkObjectResult("How on earth?");
         }
     }
 }
